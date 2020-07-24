@@ -8,6 +8,8 @@
 <script type="text/javascript" src="script/member.js"></script>
 </head>
 <body>
+<jsp:include page="header.jsp"/>
+	<span style="font-family: 카페24 고운밤">
 	<h2>회원 가입</h2>
 	'*'표시 항목은 필수 입력 항목입니다
 	<form action="join.do" method="post" name="frm">
@@ -56,5 +58,7 @@
 			<tr><td colspan="2">${message}</td></tr>
 		</table>
 	</form>
+	</span>
+	<jsp:include page="footer.jsp"/>
 </body>
 </html>

@@ -9,6 +9,8 @@
 <script type="text/javascript" src="script/member.js"></script>
 </head>
 <body>
+<jsp:include page="header.jsp"/>
+	<span style="font-family: 카페24 고운밤">
 	<h2>아이디 중복 확인</h2>
 	<form action="idCheck.do" method="get" name="frm">
 		아이디 <input type="text" name="userid" value="${userid}">
@@ -24,5 +26,7 @@ ${userid}는 사용 가능한 아이디입니다
 <input type="button" value="사용" class="cancel" onclick="idok()">
 		</c:if>
 	</form>
+	</span>
+	<jsp:include page="footer.jsp"/>
 </body>
 </html>

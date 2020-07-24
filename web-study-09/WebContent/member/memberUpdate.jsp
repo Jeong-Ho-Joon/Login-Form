@@ -9,6 +9,8 @@
 <script type="text/javascript" src="script/member.js"></script>
 </head>
 <body>
+<jsp:include page="header.jsp"/>
+	<span style="font-family: 카페24 고운밤">
 	<h2>회원 수정</h2>
 	<form action="memberUpdate.do" method="post" name="frm">
 		<table>
@@ -59,5 +61,7 @@
 			</tr>
 		</table>
 	</form>
+	</span>
+	<jsp:include page="footer.jsp"/>
 </body>
 </html>

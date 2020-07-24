@@ -12,6 +12,8 @@
 <script type="text/javascript" src="member.js"></script>
 </head>
 <body>
+<jsp:include page="header.jsp"/>
+	<span style="font-family: 카페24 고운밤">
 	<h2>회원 전용 페이지</h2>
 	<form action="logout.do">
 		<table>
@@ -26,5 +28,7 @@
 			</tr>
 		</table>
 	</form>
+	</span>
+	<jsp:include page="footer.jsp"/>
 </body>
 	</html>

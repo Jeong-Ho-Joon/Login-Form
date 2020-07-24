@@ -8,6 +8,8 @@
 <script type="text/javascript" src="script/member.js"></script>
 </head>
 <body>
+<jsp:include page="header.jsp"/>
+	<span style="font-family: 카페24 고운밤">
 	<h2>로그인</h2>
 	<form action="login.do" method="post" name="frm">
 		<table>
@@ -31,5 +33,7 @@
 			</tr>
 		</table>
 	</form>
+	</span>
+	<jsp:include page="footer.jsp"/>
 </body>
 </html>
